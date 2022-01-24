@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+</head>
+<body>
+    
+    <!-- Corresponds to the HTTP POST method; form data are included in the body of the form and sent to the server. -->
+    <!-- When the value of the method attribute is post, enctype is the MIME type of content that is used to submit the form to the server. -->
+    <!-- here name attributes are used to show the dats are classified by the mentioned datas while we are mailing -->
+    <legend>
+      <form action="mailto:bwubts18037@brainwareuniversity.ac.in" method="post" enctype="text/plain">
+        <label for="name">Name :</label><br>
+        <input type="text" name="yourName" id="name" placeholder="Enter Your Name"><br>
+        <!-- <input type="color" name="" id=""> -->
+        <!-- gives a color picker -->
+        <!-- checkbox gives us a box where user can check into -->
+        <!-- password for getting password from the user -->
+        <label for="email">Email :</label><br>
+        <input type="email" name="yourEmail" id="email" placeholder="Enter your email"><br>
+        <!-- as type="email" it automatically adds the validation while we are typing emails -->
+        <label for="file">Upload CV</label><br>
+        <input type="file" name="yourFile" id="file"><br>
+        <label for="date">Date</label><br>
+        <input type="date" name="yourDate" id="date"><br>
+        <label for="message">Message</label><br>
+        <textarea name="yourMessage" id="message" cols="30" rows="10">Your Message</textarea><br>
+        <input type="submit">
+      </form>
+    </legend>
+    
+    <!-- github pages uploaded cv shown at website -> https://chatterjeesubhro123.github.io/CV/ -->
+  
+</body>
+</html>
+
